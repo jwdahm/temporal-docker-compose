@@ -54,8 +54,6 @@ services:
     image: temporalio/ui:${TEMPORAL_UI_VERSION}
     networks:
       - temporal-network
-    ports:
-      - 8080:8080
 networks:
   temporal-network:
     driver: bridge
